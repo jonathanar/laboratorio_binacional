@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<!-- PARA ESTE TIPO DE PROBLEMA NO MOVER NADA DE ESTILOS NI DE SCRIPTS -->
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="http://cursoste.tecvirtual.mx/cursos/prototipos/mexicox/plantillas/css/styles_mexicox.css">
+</head>
+<body>
+	<div id="custom_problem">
+		<!-- SE PUEDE AGREGAR LAS OPCIONES NECESARIAS CON LA CONDICION
+			 DE DECLARAR SOLAMENTE UNA EN SU VALOR VALUE COMO TRUE, LAS
+			 DEMAS ASEGURARSE QUE QUEDEN EN FALSE COMO SE MUESTRA EN 
+			 ESTA PLANTILLA -->
+	  <div><input type="radio" name="option" value="false">A. La empresa de Mikel podría comprar Certificados de la Tesorería (CETES) que si bien no ofrecen un rendimiento tan atractivo, no tienen riesgo, y no se pone en peligro el patrimonio de la empresa.</div>
+	  <div><input type="radio" name="option" value="false">
+	  B. La empresa de Mikel podría participar en la Fibra E, ya que este instrumento invierte en proyectos de infraestructura del sector energético. Incluso Mikel podría adquirir individualmente participaciones en la Fibra E.</div>
+	  <div><input type="radio" name="option" value="true">
+	  C. La empresa de Mikel podría adquirir Certificados de Proyectos de Inversión (CERPI) en virtud de que es un gran inversionista en el mercado. De esta manera podría asegurarse un mayor control sobre el Comité Técnico del Fideicomiso y obtener así mayores rendimientos al invertir en el desarrollo de proyectos de infraestructura del sector energético.</div>
+	  <div><input type="radio" name="option" value="false">D. La empresa de Mikel puede desarrollar por sí sola proyectos de infraestructura en el sector energético y absorber todo el riesgo, pero también obtener todo el rendimiento.</div>
+	</div>
+	<!-- EN ESTE INPUT TIPO HIDDEN SE DEBE DE COLOCAR LA RUTA DONDE SE VAN
+		 A GUARDAR LOS RESULTADOS TAL COMO SE MUESTRA EN LA PROPIEDAD VALUE.
+		 NOTA: ASEGURARSE QUE EL ARCHIVO EN EL SERVIDOR TENGA PERMISOS DE 
+		 ESCRITURA, DE LO CONTRARIO NO SE GUARDARA NINGUN RESULTADO GENERADO. -->
+	<input id="resroute" type="hidden" value="http://idea-itesm.com/mexicox/retos/LREE1I01x_ene17/results.json">
+    <script type="text/javascript" src="https://studio.edx.org/c4x/edX/DemoX/asset/jschannel.js"></script>
+    <script src="http://cursoste.tecvirtual.mx/cursos/prototipos/mexicox/plantillas/js/opmultiplemx.js" defer='defer'></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<!-- PARA ESTE TIPO DE PROBLEMA NO MOVER NADA DE ESTILOS NI DE SCRIPTS -->
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="http://idea-itesm.com/mexicox/plantillas/css/styles_mexicox.css">
+</head>
+<body>
+	<div id="custom_problem">
+		<!-- SE PUEDE AGREGAR LAS OPCIONES NECESARIAS CON LA CONDICION
+			 DE DECLARAR SOLAMENTE UNA EN SU VALOR VALUE COMO TRUE, LAS
+			 DEMAS ASEGURARSE QUE QUEDEN EN FALSE COMO SE MUESTRA EN 
+			 ESTA PLANTILLA -->
+	  <div><input type="radio" name="option" value="false">A. Utilizaría la gasolina puesto que se consume más despacio.</div>
+	  <div><input type="radio" name="option" value="false">B. Utilizaría cualquiera de los tres porque tienes propiedades similares y sus características no hacen diferencia en cuanto a eficiencia y seguridad.</div>
+	  <div><input type="radio" name="option" value="true">C. Utilizaría el etanol puesto que su llama es más controlable.</div>
+	  <div><input type="radio" name="option" value="false">D. Utilizaría el diésel puesto que es el combustible que llega a mayor temperatura.</div>
+	</div>
+	<!-- EN ESTE INPUT TIPO HIDDEN SE DEBE DE COLOCAR LA RUTA DONDE SE VAN
+		 A GUARDAR LOS RESULTADOS TAL COMO SE MUESTRA EN LA PROPIEDAD VALUE.
+		 NOTA: ASEGURARSE QUE EL ARCHIVO EN EL SERVIDOR TENGA PERMISOS DE 
+		 ESCRITURA, DE LO CONTRARIO NO SE GUARDARA NINGUN RESULTADO GENERADO. -->
+	<input id="resroute" type="hidden" value="http://idea-itesm.com/mexicox/retos/ECLE1I01x_ene17/results.json">
+    <script type="text/javascript" src="https://studio.edx.org/c4x/edX/DemoX/asset/jschannel.js"></script>
+    <script src="http://idea-itesm.com/mexicox/plantillas/js/opmultiplemx.js" defer='defer'></script>
+</body>
+</html>

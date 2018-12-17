@@ -1,0 +1,35 @@
+<problem>
+<script type="loncapa/python">
+<![CDATA[
+import json
+def vglcfn(e, ans):
+  par = json.loads(ans)
+  answer = json.loads(par["answer"])
+  if answer["correct"] == "true":
+    return True
+  else:
+    return False
+]]>
+</script>
+<customresponse cfn="vglcfn">
+  <jsinput gradefn="mxCustomProblem.getGrade"
+    get_statefn="mxCustomProblem.getState"
+    set_statefn="mxCustomProblem.setState"
+    width="100%"
+    height="400"
+    initial_state='{"option": "", "correct": false, "try_number": 0}'
+    html_file="http://idea-itesm.com/mexicox/retos/CARPETA_CURSO/opMultiple.html"
+    sop="false"/>
+  <script type="text/javascript">
+    ifrm = document.getElementsByTagName('iframe')[0];
+    ifrm.src = "http://idea-itesm.com/mexicox/retos/CARPETA_CURSO/opMultiple.html?seed=" + document.cookie;
+  </script>
+</customresponse>
+      <demandhint>
+          <hint>Aquí va la pista 1 que recibie el usuario al dar click en mostrar pista.</hint>
+          <hint>Aquí va la pista 2 que recibie el usuario al dar click en mostrar pista nuevamente. (Pueden ir multiples pistas)</hint>
+        </demandhint>
+        <solution>
+<div class="detailed-solution"><p>Retroalimentación, aqui va el texto que recibe el usuario al dar clic en mostrar respuesta. </p></div>
+</solution>
+</problem>

@@ -1,0 +1,52 @@
+#container {
+	background-color: black;
+	width: 400px;
+	height: 400px;
+}
+#formcursoste {
+	display: none;
+}
+#custom_problem > * {
+	border: 2px solid #e5e5e5;
+	border-radius: 3px !important;
+	display: block !important;
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size: 0.8rem !important;
+	margin-bottom: 10px !important;
+	padding: 10px !important;
+}
+.correct {
+	border-color: #1d9348 !important;
+}
+.incorrect {
+	border-color: #b20610 !important;
+}
+.feedback {
+	display: none;
+}
+#feedbk {
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size: 0.9rem !important;
+}
+.feedcorrect {
+	color: #1d9348 !important;
+}
+.feedincorrect {
+	color: #b20610 !important;
+}
+.results_table {
+    border-collapse: collapse;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.results_table th, .results_table td {
+    border: 2px solid #e5e5e5;
+    padding: 5px 10px;
+}
+.results_table tr:nth-child(odd) td {
+    background-color: #e8e8e8;
+}
+.results_table th {
+    background-color: #c0c0c0;
+}

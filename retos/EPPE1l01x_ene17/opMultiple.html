@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<!-- PARA ESTE TIPO DE PROBLEMA NO MOVER NADA DE ESTILOS NI DE SCRIPTS -->
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="http://idea-itesm.com/mexicox/plantillas/css/styles_mexicox.css">
+</head>
+<body>
+	<div id="custom_problem">
+		<!-- SE PUEDE AGREGAR LAS OPCIONES NECESARIAS CON LA CONDICION
+			 DE DECLARAR SOLAMENTE UNA EN SU VALOR VALUE COMO TRUE, LAS
+			 DEMAS ASEGURARSE QUE QUEDEN EN FALSE COMO SE MUESTRA EN 
+			 ESTA PLANTILLA -->
+	  <div><input type="radio" name="option" value="false">A. Se deberá instalar una planta de generación con base a <strong>combustión de biomasa agrícola</strong> residual que se deberá de traer desde cientos de kilómetros de distancia. La combustión generará vapor de agua para mover una turbina de vapor y un generador de energía eléctrica.</div>
+	  <div><input type="radio" name="option" value="false">B. Se deberá instalar una <strong>planta de generación termosolar</strong> basada en concentradores solares. Los concentradores solares calientan agua, la cual es escaza y tendrá que transportarse de lejos, para generar vapor de agua y mover una turbina de vapor y un generador de energía eléctrica.</div>
+	  <div><input type="radio" name="option" value="true">C. Se deberá instalar una <strong>planta fotovoltáica</strong> para convertir la energía solar en energía eléctrica, la cual se puede inyectar a la red eléctrica. Asimismo, se contará con un banco de almacenamiento de energía eficiente para suministrar la energía a la red cuando sea conveniente.</div>
+	  <div><input type="radio" name="option" value="false">D. Se deberá instalar una <strong>granja eólica</strong> para convertir la energía del viento en energía eléctrica, la cual se puede inyectar a la red eléctrica. Como el viento es muy variable, se tendría que tener una planta de generación de respaldo que queme combustóleo el cual es contaminante y se tendría que transportar desde lejos.</div>
+	</div>
+	<!-- EN ESTE INPUT TIPO HIDDEN SE DEBE DE COLOCAR LA RUTA DONDE SE VAN
+		 A GUARDAR LOS RESULTADOS TAL COMO SE MUESTRA EN LA PROPIEDAD VALUE.
+		 NOTA: ASEGURARSE QUE EL ARCHIVO EN EL SERVIDOR TENGA PERMISOS DE 
+		 ESCRITURA, DE LO CONTRARIO NO SE GUARDARA NINGUN RESULTADO GENERADO. -->
+	<input id="resroute" type="hidden" value="http://idea-itesm.com/mexicox/retos/EPPE1l01x_ene17/results.json">
+    <script type="text/javascript" src="https://studio.edx.org/c4x/edX/DemoX/asset/jschannel.js"></script>
+    <script src="http://idea-itesm.com/mexicox/plantillas/js/opmultiplemx.js" defer='defer'></script>
+</body>
+</html>
